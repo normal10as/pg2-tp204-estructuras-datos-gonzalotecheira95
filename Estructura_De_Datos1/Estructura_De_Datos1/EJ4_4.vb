@@ -5,20 +5,21 @@ Module EJ4_4
     Sub main()
         Dim paises As New Collection
         Dim clave As String
-        paises.Add("ar")
-        paises.Add("br")
-        paises.Add("pe")
+        paises.Add("Argentina", "ar")
+        paises.Add("brasil", "br")
+        paises.Add("peru", "pe")
 
-        Console.Write("Ingrese clave de dominio: ")
-        clave = Console.ReadLine()
 
-        For Each dominio In paises
-            Console.WriteLine(dominio)
-            If (clave = dominio) Then
-                Console.WriteLine(dominio)
+        Do
+            Console.Write("Ingrese clave de dominio: ")
+            clave = Console.ReadLine
+            If paises.Contains(clave) Then
+                Console.WriteLine(paises.Item(clave))
+            Else
+                Console.WriteLine("El dominio es inexistente, ingrese otro: ")
             End If
 
-        Next
+        Loop Until (clave = "")
         Console.ReadKey()
     End Sub
 

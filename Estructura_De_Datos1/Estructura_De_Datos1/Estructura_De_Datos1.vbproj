@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2FDBEB22-0D56-41BE-A2D0-2716C9E270A5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Estructura_De_Datos.EJ4_4</StartupObject>
+    <StartupObject>Estructura_De_Datos.EJ4_5</StartupObject>
     <RootNamespace>Estructura_De_Datos</RootNamespace>
     <AssemblyName>Estructura_De_Datos1</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -72,6 +72,7 @@
     <Compile Include="EJ4_2.vb" />
     <Compile Include="EJ4_3.vb" />
     <Compile Include="EJ4_4.vb" />
+    <Compile Include="EJ4_5.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
